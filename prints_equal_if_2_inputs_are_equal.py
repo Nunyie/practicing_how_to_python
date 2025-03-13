@@ -1,0 +1,19 @@
+#Prog2
+#Equal
+#Nunyie
+print("This code tells when 2 entered values are not equal.")
+def valid_input(x):
+    while True:
+        try:
+            return float(input(x))
+        except ValueError:
+            print("Please enter a Number")
+
+num1=valid_input("First Number = ")
+num2=valid_input("Second Number = ")
+
+if num1 == num2:
+    print("Both Number are equal.")
+    
+else:
+    print("Numbers entered is not equal")
