@@ -1,6 +1,6 @@
 # Nunyie
 # Prints all numbers once even if inputted more than once
-def valid_input(u): #defining valid inputs
+def valid_input(u): # Defining valid inputs
     while True:
         try:
             return float(input(u))
