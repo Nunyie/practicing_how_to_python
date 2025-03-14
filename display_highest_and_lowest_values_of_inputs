@@ -1,2 +1,12 @@
 #Nunyie
 #Prints lowest and highest values from list of inputs using sort()
+
+numbers = []
+while True:
+    inputs = input("Enter a number (or 'exit' to exit program): ")
+    if inputs.lower() == 'exit':
+        break
+    try:
+        numbers.append(float(input))
+    except ValueError:
+        print("Invalid input! Please enter a valid number.")
