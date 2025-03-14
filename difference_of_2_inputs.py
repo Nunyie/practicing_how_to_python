@@ -1,6 +1,5 @@
-#Prog3
-#Difference
-#Nunyie
+# Difference
+# Nunyie
 print("This code produces the difference between 2 inputs.")
 def valid_input(u):
     while True:

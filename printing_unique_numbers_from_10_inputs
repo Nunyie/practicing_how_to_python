@@ -1,7 +1,7 @@
-#Nunyie
-#Printing unique numbers with no duplicates with 10 inputs
+# Nunyie
+# Printing unique numbers with no duplicates with 10 inputs
 
-#defining valid inputs
+# Defining valid inputs
 def valid_input(u):
     while True:
         try:

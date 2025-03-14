@@ -1,11 +1,10 @@
-#Prog1
-#Bigger Num
-#Nunyie
+# Bigger Num
+# Nunyie
 print("This code shows the biggest number between 2 entered inputs.")
 def valid_input(x):
     while True:
         try:
-            return float(input(ux))
+            return float(input(x))
         except ValueError:
             print("Invalid Input. Please enter a Number.")
     

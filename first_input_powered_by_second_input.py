@@ -1,6 +1,5 @@
-#Prog6
-#exponent
-#Nunyie
+# Exponent
+# Nunyie
 print("This code raises the first number entered by the second number entered")
 print("Output is rounded to 5 decimal places.")
 

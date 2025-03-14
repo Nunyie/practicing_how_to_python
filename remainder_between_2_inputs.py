@@ -1,6 +1,5 @@
-#Prog5
-#Remainder
-#Nunyie
+# Remainder
+# Nunyie
 print("This code produces the remainder the first number is divided by the second.")
 
 def valid_input(u):

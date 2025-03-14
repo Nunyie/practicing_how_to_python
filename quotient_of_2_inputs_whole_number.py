@@ -1,6 +1,5 @@
-#Prog4
-#Quotient no dp
-#Nunyie
+# Quotient no dp
+# Nunyie
 print("This code produces the quotient between 2 numbers")
 print("Output is rounded to 0 decimal places.")
 def valid_input(u):

@@ -1,6 +1,5 @@
-#Prog8
-#Odd ones out
-#Nunyie
+# Odd ones out
+# Nunyie
 print("This code shows the odd ones out from 10 inputed numbers")
 print("Output is rounded the nearest Integer.")
 

@@ -1,5 +1,4 @@
-# Prog10
-# inbetween
+# Inbetween
 # Nunyie
 print("Numbers inbetween input.")
   

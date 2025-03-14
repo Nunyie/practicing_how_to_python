@@ -1,6 +1,5 @@
-#Prog5
-#quotient
-#Nunyie
+# Quotient
+# Nunyie
 print("This code produces the quotient between 2 numbers")
 print("Output is rounded to 5 decimal places.")
 

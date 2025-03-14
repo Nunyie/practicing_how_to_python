@@ -1,4 +1,3 @@
-# Prog8
 # 0-100 odds
 # Nunyie
 print("This code prints out the odd numbers from 0-100.")

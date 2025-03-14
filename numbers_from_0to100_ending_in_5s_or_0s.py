@@ -1,4 +1,3 @@
-# Prog9
 # ends with 0/5
 # Nunyie
 print("This code prints out numbers that ends in 0 or 5 from 0-100.")

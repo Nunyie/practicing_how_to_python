@@ -1,6 +1,5 @@
-#Prog4
-#Product
-#Nunyie
+# Product
+# Nunyie
 print("This code produces the product between 2 numbers")
 print("Output is rounded to 5 decimal places.")
 def valid_input(u):
@@ -11,7 +10,7 @@ def valid_input(u):
             print("Please enter a number")
             
 num1 = valid_input("First Number = ")
-num2 = vvalid_inputi("Second Number = ")
+num2 = valid_input("Second Number = ")
 
 non_rounded_answer = float(num1*num2)
 answer = round(non_rounded_answer, 5)

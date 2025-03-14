@@ -1,6 +1,5 @@
-#Prog2
-#NotEqual
-#Nunyie
+# NotEqual
+# Nunyie
 print("This code tells when 2 entered values are not equal.")
 def valid_input(u):
     while True:

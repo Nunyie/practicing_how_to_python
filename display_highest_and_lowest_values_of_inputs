@@ -1,5 +1,5 @@
-#Nunyie
-#Prints lowest and highest values from list of inputs using sort()
+# Nunyie
+# Prints lowest and highest values from list of inputs using sort()
 
 numbers = []
 while True:

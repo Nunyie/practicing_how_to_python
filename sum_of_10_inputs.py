@@ -1,6 +1,5 @@
-#Prog7
-#sum of 10
-#Nunyie
+# Sum of 10
+# Nunyie
 print("This code produces the sum of 10 numbers")
 print("Output is rounded to 5 decimal places.")
 

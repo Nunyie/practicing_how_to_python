@@ -1,6 +1,5 @@
-#Prog1
-#Smaller Num
-#Nunyie
+# Smaller Num
+# Nunyie
 print("This code shows the smaller number between 2 entered inputs.")
 def valid_input(u):
     while True:

@@ -1,4 +1,3 @@
-# Prog7
 # 10 inputs find even
 # Nunyie
 

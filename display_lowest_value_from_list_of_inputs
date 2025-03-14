@@ -1,8 +1,8 @@
-#Nunyie
-#Prints lowest value from list of inputs
-#Recycled code from "prints_unique_for_num_with_no_duplicate_and_duplicate_for_num_with_duplicate"
+# Nunyie
+# Prints lowest value from list of inputs
+# Recycled code from "prints_unique_for_num_with_no_duplicate_and_duplicate_for_num_with_duplicate"
 
-def valid_input(u): #defining valid inputs
+def valid_input(u): # Defining valid inputs
     while True:
         try:
             return float(input(u))
