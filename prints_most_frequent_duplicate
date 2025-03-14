@@ -1,2 +1,13 @@
 # Nunyie
 # Prints which input was repeated the most amount of times
+
+numbers = []
+while True:
+    try:
+        num = float(input("Enter a number (or any non-numeric value to stop): "))
+        if num in numbers:
+            numbers[num] += 1  # Increases count for duped input
+        else:
+            numbers[num] = 1  # Creates a new count for a non duped number
+    except ValueError:
+        break  # Exis loop when input is invalid
