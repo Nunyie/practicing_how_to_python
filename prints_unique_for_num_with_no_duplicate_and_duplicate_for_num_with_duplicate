@@ -1,2 +1,9 @@
 #Nunyie
 #Prints all numbers once even if inputted more than once
+
+def valid_input(u): #defining valid inputs
+    while True:
+        try:
+            return float(input(u))
+        except ValueError:
+            print("Please enter a number")
