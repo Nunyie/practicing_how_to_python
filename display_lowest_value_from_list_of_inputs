@@ -19,4 +19,7 @@ while True:
         lowest_value = num
 
 print("Program Terminated")
-
+if lowest_value is not None:
+    print(f"The lowest number entered is: {lowest_value}")
+else:
+    print("No valid numbers were entered.")
