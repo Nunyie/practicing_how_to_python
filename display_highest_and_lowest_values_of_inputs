@@ -1,0 +1,26 @@
+#Nunyie
+#Prints lowest and highest values from list of inputs using sort()
+
+#Recycled code from "display_lowest_value_from_list_of_inputs"
+
+def valid_input(u): #defining valid inputs
+    while True:
+        try:
+            return float(input(u))
+        except ValueError:
+            return None
+
+lowest_value = None
+while True:
+    num = valid_input("Enter a number (or a non-numeric value to stop): ")
+    if num is None:
+        break
+
+    if lowest_value is None or num < lowest_value:
+        lowest_value = num
+
+print("Program Terminated")
+if lowest_value is not None:
+    print(f"The lowest number entered is: {lowest_value}")
+else:
+    print("No valid numbers were entered.")
