@@ -6,4 +6,12 @@ def valid_input(u): #defining valid inputs
         try:
             return float(input(u))
         except ValueError:
-            print("Please enter a number")
+            print("Program Terminated")
+
+numbers = []
+num = valid_input("Enter a number (or a non-numeric value to stop): ")
+if num in numbers:
+    print("Duplicate")
+else:
+    print("Unique")
+    numbers.append(num)
