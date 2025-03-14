@@ -1,3 +1,19 @@
 # Nunyie
 # Prints highest value from list of inputs
 # recycled from "display_highest_and_lowest_values_of_inputs"
+
+numbers = []
+while True:
+    inputs = input("Enter a number (or 'exit' to exit program): ")
+    if inputs.lower() == 'exit':
+        break
+    try:
+        numbers.append(float(inputs))
+    except ValueError:
+        print("Invalid input! Please enter a valid number.")
+
+if numbers:
+    highest = max(numbers)
+    print(f"Highest number = {highest}")
+else:
+    print("No valid input was entered")
