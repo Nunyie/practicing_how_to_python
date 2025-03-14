@@ -6,13 +6,16 @@ def valid_input(u): #defining valid inputs
         try:
             return float(input(u))
         except ValueError:
-            print("Program Terminated")
+            return None
 
 numbers = []
 while True:
     num = valid_input("Enter a number (or a non-numeric value to stop): ")
+    if num is None:
+        break
     if num in numbers:
         print("Duplicate")
     else:
         print("Unique")
         numbers.append(num)
+print("Program Terminated")
