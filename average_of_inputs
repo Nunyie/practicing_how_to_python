@@ -13,7 +13,7 @@ while True:
         print("Invalid input! Please enter a valid number.")
 
 if numbers:
-    highest = max(numbers)
-    print(f"Highest number = {highest}")
+    average = sum(numbers)/ len(numbers)
+    print(f"Average = {average}")
 else:
     print("No valid input was entered")
