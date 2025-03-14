@@ -11,9 +11,9 @@ while True:
     except ValueError:
         print("Invalid input! Please enter a valid number.")
 
-if number:
-    highest = max(number)
-    lowest = min(number)
+if numbers:
+    highest = max(numbers)
+    lowest = min(numbers)
     print(f"Lowest number = {lowest} and Highest number = {highest}")
 else:
     print("No valid input was entered")
