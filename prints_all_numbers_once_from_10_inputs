@@ -1,8 +1,6 @@
 #Nunyie
 #Prints all numbers once even if inputted more than once
-
-#defining valid inputs
-def valid_input(u):
+def valid_input(u): #defining valid inputs
     while True:
         try:
             return float(input(u))
@@ -13,3 +11,10 @@ numbers = []
 for i in range(10):
     num = valid_input(f"Enter Number {i + 1}: ")
     numbers.append(num)
+
+unique_numbers = []
+for num in numbers:
+    if num not in unique_numbers:
+        unique_numbers.append(num)
+
+print("Number list with no duplicates:", unique_numbers)
