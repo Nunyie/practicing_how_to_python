@@ -7,7 +7,7 @@ while True:
     if inputs.lower() == 'exit':
         break
     try:
-        numbers.append(float(input))
+        numbers.append(float(inputs))
     except ValueError:
         print("Invalid input! Please enter a valid number.")
 
