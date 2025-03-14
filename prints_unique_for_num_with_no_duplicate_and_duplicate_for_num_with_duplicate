@@ -9,9 +9,10 @@ def valid_input(u): #defining valid inputs
             print("Program Terminated")
 
 numbers = []
-num = valid_input("Enter a number (or a non-numeric value to stop): ")
-if num in numbers:
-    print("Duplicate")
-else:
-    print("Unique")
-    numbers.append(num)
+while True:
+    num = valid_input("Enter a number (or a non-numeric value to stop): ")
+    if num in numbers:
+        print("Duplicate")
+    else:
+        print("Unique")
+        numbers.append(num)
