@@ -1,4 +1,10 @@
 #Nunyie
 #Prints out the duplicated numbers from 10 inputs
-
+#recycled code from "printing_unique_numbers_from_10_inputs"
+print("Please Enter 10 numbers")
 numbers = []
+for i in range(10):
+    num = float(input((f"Enter number {i + 1}: ")))
+    numbers.append(num)
+duplicates = [num for num in numbers if numbers.count(num) != 1]
+print("Unique numbers with duplicates:", duplicates)
