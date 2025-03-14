@@ -1,2 +1,22 @@
 #Nunyie
-#Prints lowest value from list
+#Prints lowest value from list of inputs
+#Recycled code from "prints_unique_for_num_with_no_duplicate_and_duplicate_for_num_with_duplicate"
+
+def valid_input(u): #defining valid inputs
+    while True:
+        try:
+            return float(input(u))
+        except ValueError:
+            return None
+
+numbers = []
+while True:
+    num = valid_input("Enter a number (or a non-numeric value to stop): ")
+    if num is None:
+        break
+    if num in numbers:
+        print("Duplicate")
+    else:
+        print("Unique")
+        numbers.append(num)
+print("Program Terminated")
