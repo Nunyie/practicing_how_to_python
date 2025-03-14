@@ -2,14 +2,17 @@
 #Printing unique numbers with no duplicates with 10 inputs
 
 #defining valid inputs
-def valid_input(u)
+def valid_input(u):
     while True:
         try:
             return float(input(u))
         except ValueError:
             print("Please enter a number")
 
-numbers=[]
+numbers = []
 for i in range(10):
-    num=valid_input(f"Enter number {i+1}: ")
+    num=valid_input(f"Enter number {i + 1}: ")
     numbers.append(num)
+
+unique_numbers = [num for num in numbers if numbers.count(num) == 1]
+print("Unique numbers with no duplicates:", unique_numbers)
